@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~>2.0"
+  s.add_dependency "bellybuster"
   s.add_dependency "amqp", "~> 0.8.0.RC12"
 
   s.files = `git ls-files`.split("\n")

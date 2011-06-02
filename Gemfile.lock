@@ -1,0 +1,37 @@
+PATH
+  remote: .
+  specs:
+    bellybuster-amqp (0.0.1)
+      amqp (~> 0.8.0.RC12)
+      bellybuster
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    amq-client (0.7.0.alpha32)
+      amq-protocol (>= 0.7.0.alpha6)
+      eventmachine
+    amq-protocol (0.7.0.alpha6)
+    amqp (0.8.0.rc12)
+      amq-client (>= 0.7.0.alpha25)
+      eventmachine
+    bellybuster (0.0.1)
+    diff-lcs (1.1.2)
+    eventmachine (0.12.10)
+    rake (0.9.1)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.3)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bellybuster-amqp!
+  rake
+  rspec (~> 2.0)
